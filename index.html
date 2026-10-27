@@ -3,18 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Menu</title>
+  <meta name="theme-color" content="#7b3f1e">
+  <title>DMateo's Food House | Menu</title>
+  <link rel="icon" href="images/logo.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header><h1 id="restaurant-name"></h1></header>
+  <header>
+    <img class="logo" src="images/logo.jpg" alt="DMateo's Food House">
+    <h1 id="restaurant-name" class="visually-hidden"></h1>
+    <p class="subtitle">Our Menu</p>
+  </header>
+
   <nav id="category-nav"></nav>
   <main id="menu"></main>
 
   <div class="pager">
-    <button id="prev-btn"> ← </button>
+    <button id="prev-btn">← Prev</button>
     <span id="page-indicator"></span>
-    <button id="next-btn"> → </button>
+    <button id="next-btn">Next →</button>
   </div>
 
   <script src="script.js"></script>

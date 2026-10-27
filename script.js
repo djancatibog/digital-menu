@@ -39,8 +39,8 @@ function playSlide(direction) {
 
 // Show ONE category (one page of the booklet)
 function showPage(index) {
-  const direction = index > currentPage ? "next" : "prev"; // NEW
-  const changed = index !== currentPage;                   // NEW
+  const direction = index > currentPage ? "next" : "prev"; 
+  const changed = index !== currentPage;                   
   currentPage = index;
   const cat = menuData.categories[index];
 
