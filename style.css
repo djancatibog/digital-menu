@@ -5,6 +5,7 @@ body {
   margin: 0;
   background: #fafafa;
   color: #222;
+  overflow-x: hidden; /* NEW: stops a sideways scrollbar during the slide animation */
 }
 
 header { text-align: center; padding: 24px 16px 8px; }
@@ -68,3 +69,28 @@ main {
   cursor: pointer;
 }
 .pager button:disabled { background: #ccc; cursor: not-allowed; }
+
+/* ---------- NEW: slide animation ---------- */
+@keyframes slideInFromRight {
+  from { opacity: 0; transform: translateX(40px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideInFromLeft {
+  from { opacity: 0; transform: translateX(-40px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+.slide-next { animation: slideInFromRight 0.25s ease-out; }
+.slide-prev { animation: slideInFromLeft 0.25s ease-out; }
+
+/* ---------- NEW: respect "reduce motion" phone settings ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .slide-next, .slide-prev { animation: none; }
+}
+
+/* ---------- NEW: hide Prev/Next on laptops and PCs ---------- */
+@media (min-width: 768px) {
+  .pager { display: none; }
+  main { padding-bottom: 16px; }
+}
