@@ -1,0 +1,30 @@
+{
+  "restaurant": "Your Restaurant Name",
+  "categories": [
+    {
+      "name": "Rice Meals",
+      "items": [
+        { "name": "Chicken Adobo", "price": 180, "description": "Slow-cooked in soy and vinegar." },
+        { "name": "Pork Sisig", "price": 200, "description": "Sizzling, served with rice." }
+      ]
+    },
+    {
+      "name": "Noodles",
+      "items": [
+        { "name": "Pancit Canton", "price": 150, "description": "Stir-fried noodles with vegetables." }
+      ]
+    },
+    {
+      "name": "Snacks",
+      "items": [
+        { "name": "Lumpiang Shanghai", "price": 90, "description": "Crispy pork spring rolls." }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "items": [
+        { "name": "Iced Tea", "price": 60, "description": "House blend." }
+      ]
+    }
+  ]
+}
