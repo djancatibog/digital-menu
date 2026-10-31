@@ -50,7 +50,7 @@ function showPage(index) {
       <div class="item">
         <div class="item-top">
           <span class="name">${item.name}</span>
-          <span class="price">₱${item.price}</span>
+          <span class="price">${item.price ? "₱" + item.price : ""}</span>
         </div>
         <p>${item.description}</p>
       </div>`).join("");

@@ -1,29 +1,269 @@
 {
-  "restaurant": "Dmateo's",
+  "restaurant": "DMateo's Food House",
   "categories": [
     {
-      "name": "Rice Meals",
+      "name": "Rice Meals & Platters",
       "items": [
-        { "name": "Chicken Adobo", "price": 180, "description": "Slow-cooked in soy and vinegar." },
-        { "name": "Pork Sisig", "price": 200, "description": "Sizzling, served with rice." }
+        {
+          "name": "Sizzling Sisig Platter",
+          "price": "155 / ₱170",
+          "description": "Crispy chopped pork seasoned with calamansi and chili, good for sharing. (₱155 Regular • ₱170 w/ Egg)"
+        },
+        {
+          "name": "Sizzling Sisig w/ Rice",
+          "price": "110 / ₱125",
+          "description": "Savory sizzling pork sisig served with steamed rice. (₱110 Regular • ₱125 w/ Egg)"
+        },
+        {
+          "name": "Sizzling Spicy Pusit",
+          "price": "130 / ₱220",
+          "description": "Tender squid rings in a sweet and spicy sizzling sauce. (₱130 w/ Rice • ₱220 Platter)"
+        },
+        {
+          "name": "Sizzling Burger Steak",
+          "price": "110 / ₱150",
+          "description": "Juicy beef patty topped with savory mushroom gravy. (₱110 w/ Rice • ₱150 Platter)"
+        },
+        {
+          "name": "Sizzling Spicy Hotdog",
+          "price": "100 / ₱145",
+          "description": "Sliced hotdogs glazed in a sweet and spicy sizzling sauce. (₱100 w/ Rice • ₱145 Platter)"
+        },
+        {
+          "name": "Sizzling Hungarian Sausage",
+          "price": "100 / ₱170",
+          "description": "Smoky, mildly spicy Hungarian sausage served on a hot plate. (₱100 w/ Rice • ₱170 Platter)"
+        },
+        {
+          "name": "Lechon Kawali",
+          "price": "110 / ₱190",
+          "description": "Golden, deep-fried crispy pork belly served with dipping sauce. (₱110 w/ Rice • ₱190 Platter)"
+        },
+        {
+          "name": "Chicken Katsu",
+          "price": "100 / ₱145",
+          "description": "Panko-breaded crispy chicken cutlet with tonkatsu sauce. (₱100 w/ Rice • ₱145 Platter)"
+        },
+        {
+          "name": "Pork Katsu",
+          "price": "100 / ₱145",
+          "description": "Crunchy breaded pork cutlet fried to golden perfection. (₱100 w/ Rice • ₱145 Platter)"
+        },
+        {
+          "name": "Chopseuy",
+          "price": 225,
+          "description": "Crisp medley of stir-fried vegetables in a savory sauce, good for sharing."
+        },
+        {
+          "name": "Crispy Dinuguan",
+          "price": "135 / ₱220",
+          "description": "Crunchy pork topped with rich, savory pork blood stew and green chili. (₱135 w/ Rice • ₱220 Platter)"
+        }
       ]
     },
     {
-      "name": "Noodles",
+      "name": "Rice Toppings",
       "items": [
-        { "name": "Pancit Canton", "price": 150, "description": "Stir-fried noodles with vegetables." }
+        {
+          "name": "Sisig",
+          "price": 80,
+          "description": "Savory chopped pork sisig served over warm steamed rice. (+₱10 for take-out)"
+        },
+        {
+          "name": "Burger Steak",
+          "price": 75,
+          "description": "Seasoned burger patty with creamy mushroom gravy over rice. (+₱10 for take-out)"
+        },
+        {
+          "name": "Chicken Katsu",
+          "price": 75,
+          "description": "Crispy breaded chicken strips served on a bed of rice. (+₱10 for take-out)"
+        },
+        {
+          "name": "Pork Katsu",
+          "price": 75,
+          "description": "Golden panko-crusted pork slices served over steamed rice. (+₱10 for take-out)"
+        },
+        {
+          "name": "Chicken Nuggets",
+          "price": 75,
+          "description": "Bite-sized crispy chicken nuggets served with warm rice. (+₱10 for take-out)"
+        },
+        {
+          "name": "Hotdog",
+          "price": 65,
+          "description": "Classic fried hotdogs served over steamed white rice. (+₱10 for take-out)"
+        },
+        {
+          "name": "Lumpiang Shanghai",
+          "price": 75,
+          "description": "Crispy pork spring rolls served with steamed rice and sweet chili dip. (+₱10 for take-out)"
+        }
       ]
     },
     {
-      "name": "Snacks",
+      "name": "Snacks & Sandwiches",
       "items": [
-        { "name": "Lumpiang Shanghai", "price": 90, "description": "Crispy pork spring rolls." }
+        {
+          "name": "French Fries",
+          "price": 55,
+          "description": "Crisp golden potato fries served with ketchup."
+        },
+        {
+          "name": "Nuggets & Fries",
+          "price": 110,
+          "description": "Golden chicken nuggets paired with crispy French fries and dip."
+        },
+        {
+          "name": "Chicken Katsu & Fries",
+          "price": 110,
+          "description": "Crunchy sliced chicken katsu drizzled with sauce over fries."
+        },
+        {
+          "name": "Hotdogs & Fries",
+          "price": 100,
+          "description": "Bite-sized fried hotdogs and crispy fries, great for snacking."
+        },
+        {
+          "name": "Calamares",
+          "price": 125,
+          "description": "Lightly battered, crispy fried squid rings with spiced vinegar dip."
+        },
+        {
+          "name": "Lumpiang Shanghai",
+          "price": 100,
+          "description": "Classic crispy Filipino pork spring rolls with sweet and sour sauce."
+        },
+        {
+          "name": "Chicharon Bulaklak",
+          "price": 125,
+          "description": "Deep-fried crispy ruffled pork fat served with spiced vinegar."
+        },
+        {
+          "name": "Ham & Cheese Melt Sandwich",
+          "price": 70,
+          "description": "Toasted bread layered with savory ham and melted cheese."
+        },
+        {
+          "name": "Bacon & Cheese Melt Sandwich",
+          "price": 70,
+          "description": "Grilled sandwich packed with smoky bacon and gooey melted cheese."
+        },
+        {
+          "name": "Cheese Burger Sandwich",
+          "price": 85,
+          "description": "Juicy beef patty with melted cheese served in toasted bread."
+        },
+        {
+          "name": "Grilled Cheese Melt Sandwich",
+          "price": 50,
+          "description": "Buttery toasted bread filled with warm, melty cheese."
+        },
+        {
+          "name": "Crispy Chicken Sandwich",
+          "price": 120,
+          "description": "Crunchy fried chicken fillet with creamy mayo in a soft bun."
+        },
+        {
+          "name": "Spaghetti w/ Toasted Bread",
+          "price": 78,
+          "description": "Sweet-style Filipino meat sauce spaghetti topped with grated cheese and garlic toast."
+        },
+        {
+          "name": "Carbonara w/ Toasted Bread",
+          "price": "88 / ₱125",
+          "description": "Creamy white-sauce pasta with bacon and toasted bread. (₱88 Regular • ₱125 w/ Fried Chicken)"
+        },
+        {
+          "name": "Spaghetti w/ Fried Chicken",
+          "price": 108,
+          "description": "Pinoy-style cheesy spaghetti served with crispy fried chicken and gravy."
+        }
+      ]
+    },
+    {
+      "name": "Bilao",
+      "items": [
+        {
+          "name": "Bihon",
+          "price": "",
+          "description": "Thin rice noodles stir-fried with meat and crisp vegetables—good for sharing."
+        },
+        {
+          "name": "Bihon Canton",
+          "price": "",
+          "description": "A flavorful combination of thin rice noodles and thick egg noodles."
+        },
+        {
+          "name": "Miki Bihon",
+          "price": "",
+          "description": "Savory mix of soft miki noodles and bihon stir-fried with meat and veggies."
+        },
+        {
+          "name": "Pancit Trio",
+          "price": "",
+          "description": "Three classic noodle varieties combined in one hearty party bilao."
+        },
+        {
+          "name": "Canton",
+          "price": "",
+          "description": "Stir-fried flour noodles tossed with meat, vegetables, and savory soy sauce."
+        },
+        {
+          "name": "Lomi Special",
+          "price": "",
+          "description": "Thick egg noodles in a rich, savory soup loaded with toppings."
+        },
+        {
+          "name": "Guisado Special",
+          "price": "",
+          "description": "House-special stir-fried noodles generously topped with meat and vegetables."
+        },
+        {
+          "name": "Black Guisado",
+          "price": "",
+          "description": "Specialty stir-fried noodles cooked in a rich, savory dark sauce."
+        },
+        {
+          "name": "Chami Special",
+          "price": "",
+          "description": "Sweet and spicy stir-fried miki noodles loaded with special toppings."
+        },
+        {
+          "name": "Spaghetti",
+          "price": "",
+          "description": "Party-sized bilao of sweet-style Filipino spaghetti topped with cheese."
+        },
+        {
+          "name": "Carbonara",
+          "price": "",
+          "description": "Party-sized bilao of rich, creamy bacon carbonara."
+        }
       ]
     },
     {
       "name": "Drinks",
       "items": [
-        { "name": "Iced Tea", "price": 60, "description": "House blend." }
+        {
+          "name": "Soft Drinks",
+          "price": "",
+          "description": "Ice-cold bottled sodas—Coca-Cola, Sprite, or Royal. Chill, refresh, enjoy!"
+        },
+        {
+          "name": "Iced Coffee",
+          "price": "",
+          "description": "Cool and creamy iced coffee bliss brewed for a refreshing pick-me-up."
+        },
+        {
+          "name": "Fruit Soda",
+          "price": "",
+          "description": "Fruity, fizzy, and fabulous sparkling fruit refreshers."
+        },
+        {
+          "name": "Soda Float",
+          "price": "",
+          "description": "Fizzy Coca-Cola, Sprite, or Royal topped with creamy soft-serve—float your worries away!"
+        }
       ]
     }
   ]
